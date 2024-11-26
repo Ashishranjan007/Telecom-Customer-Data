@@ -64,33 +64,37 @@ This project aims to analyze customer churn patterns and predict potential churn
 
 ## 📊 Power BI Dashboard Highlights
 
-### Summary Dashboard
+1. **Summary Dashboard**
 - **Total Customers**, **Churn Rate**, **New Joiners**.
 - Insights into **gender**, **age**, **tenure**, and **geographic distribution**.
+- Summary Dashboard
+![Summary Dashboard](./screenshots/summary_dashboard.png)
 
-### Churn Insights
+2. **Churn Insights**
 - Top churn categories and reasons.
 - Churn rate based on services used.
 
-### Predicted Churn Analysis
+3. **Predicted Churn Analysis**
 - Demographic and account insights for predicted churners.
 - Key attributes influencing churn.
+- Predicted Churn Analysis
+![Predicted Churn Analysis](./screenshots/predicted_churn_analysis.png) 
 
 ---
 
 ## 🧠 Machine Learning Workflow
 
-### Data Preparation
+1. **Data Preparation**
 - Data loaded from **SQL Server views**.
 - Cleaned and preprocessed in **Python** for model training.
 
-### Model Training
+2. **Model Training**
 - Implemented a **Random Forest Classifier** for binary classification.
 
-### Evaluation
+3. **Evaluation**
 - Tested the model for **accuracy**, **precision**, and **recall**.
 
-### Prediction
+4. **Prediction**
 - Predicted churners were visualized in **Power BI**.
 
 ---
