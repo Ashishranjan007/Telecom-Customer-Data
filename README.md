@@ -5,7 +5,8 @@ This project focuses on analyzing customer churn trends and predicting potential
 
 ## Files
 - **Data/Customer_Data.xlsx**: Contains the dataset used for churn analysis and prediction.
-- **Churn Analysis.pbix**: Power BI report visualizing customer churn trends and actionable insights.
+- **code/sql queries.sql**: file to extract and manipulate data from a database.
+- **codeChurn Analysis.pbix**: Power BI report visualizing customer churn trends and actionable insights.
 - **code/python_data.ipynb**: Scripts or notebooks used for data preprocessing, model training, and prediction.
 
 ## Features
@@ -18,10 +19,11 @@ This project focuses on analyzing customer churn trends and predicting potential
 2. Open the Power BI report (`reports/Churn Analysis.pbix`) for visualization.
 3. Run scripts in the `src/` folder to preprocess data and train predictive models.
 
-## Tools Used
-- **Python:** Data preprocessing and prediction.
-- **Power BI:** Visualization and dashboarding.
-- **Excel:** Dataset preparation.
+## Tools and Technologies
+- **Excel**: Dataset preparation.
+- **SQL**: For data extraction and transformation.
+- **Power BI**: For creating interactive visualizations and dashboards.
+- **Python**: Libraries used include Pandas, NumPy, Matplotlib, and scikit-learn.
 
 ## Insights
 Key findings from the analysis:
