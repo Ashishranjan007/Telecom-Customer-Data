@@ -1,18 +1,62 @@
-# Customer Churn Analysis
+# Customer Churn Analysis and Prediction
 
-## Overview
-This project focuses on analyzing customer churn trends and predicting potential churners using advanced data analytics and visualization tools. By leveraging Python and Power BI, actionable insights are derived to assist in decision-making processes.
+## 📋 Overview
+This project aims to analyze customer churn patterns and predict potential churners using a comprehensive **ETL Process**, **Power BI Dashboards**, and **Machine Learning Models**. It provides actionable insights to help organizations retain customers and design effective marketing campaigns.
 
-## Files
-- **Data/Customer_Data.xlsx**: Contains the dataset used for churn analysis and prediction.
-- **code/sql queries.sql**: file to extract and manipulate data from a database.
-- **codeChurn Analysis.pbix**: Power BI report visualizing customer churn trends and actionable insights.
-- **code/python_data.ipynb**: Scripts or notebooks used for data preprocessing, model training, and prediction.
+---
 
-## Features
-1. **Data Preprocessing:** Cleaning and preparing the dataset for analysis.
-2. **Visualization:** Interactive dashboards in Power BI for better insights.
-3. **Prediction Model:** Using regression and classification techniques to predict churn likelihood.
+## 🎯 Objectives
+- Visualize and analyze customer data at **Demographic**, **Geographic**, **Payment & Account Info**, and **Service** levels.
+- Study churner profiles and identify areas for implementing marketing campaigns.
+- Develop a predictive model to identify potential future churners.
+
+---
+
+## 🚀 Features
+1. **ETL Process in SQL Server:**
+   - Created and managed a database in **SQL Server** to handle recurring data loads.
+   - Imported CSV data into staging tables using the **Import Wizard**.
+   - Transformed data using SQL queries to prepare for analysis.
+
+2. **Interactive Power BI Dashboards:**
+   - Visualized customer data, including churn metrics, demographic trends, and service usage.
+   - Key Metrics:
+     - **Total Customers**
+     - **Total Churn & Churn Rate**
+     - **New Joiners**
+   - Segmentation:
+     - **Churn Status**: Based on customer status.
+     - **Monthly Charge Range**, **Age Groups**, and **Tenure Groups**.
+   - Insights:
+     - Top demographic and geographic churn patterns.
+     - Service utilization impact on churn.
+
+3. **Churn Prediction with Machine Learning:**
+   - Implemented a **Random Forest Classifier** using **Python** to predict potential churners.
+   - Utilized SQL Server data exports for model training.
+   - Enhanced prediction accuracy with data preprocessing and feature engineering.
+
+4. **Power BI Visualization of Predictions:**
+   - Imported predicted churn data into Power BI for further analysis.
+   - Created comprehensive visualizations for predicted churn metrics.
+
+---
+
+## 📂 Project Structure
+```plaintext
+|-- ETL Process (SQL Queries and Scripts)
+|-- Power BI Dashboards
+|   |-- Summary Dashboard
+|   |-- Churn Insights
+|   |-- Predicted Churn Analysis
+|-- Machine Learning Model (Python)
+|   |-- Data Preprocessing
+|   |-- Feature Engineering
+|   |-- Random Forest Classifier
+|-- SQL Server Data Exports
+|-- Prediction Data
+|-- README.md
+
 
 ## How to Use
 1. Clone this repository:
