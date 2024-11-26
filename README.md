@@ -15,3 +15,19 @@ This project focuses on analyzing customer churn trends and predicting potential
 
 ## How to Use
 1. Clone this repository:
+2. Open the Power BI report (`reports/Churn Analysis.pbix`) for visualization.
+3. Run scripts in the `src/` folder to preprocess data and train predictive models.
+
+## Tools Used
+- **Python:** Data preprocessing and prediction.
+- **Power BI:** Visualization and dashboarding.
+- **Excel:** Dataset preparation.
+
+## Insights
+Key findings from the analysis:
+- [Add bullet points of key insights, e.g., major reasons for customer churn, patterns observed]
+
+## Contact
+For queries or suggestions, reach out at:
+- **Email:** ashishranjan5323@gmail.com
+- **LinkedIn:** [Ashish Ranjan](https://www.linkedin.com/in/ashish-ranjan-4a3799266/)
