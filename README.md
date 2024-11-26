@@ -4,9 +4,9 @@
 This project focuses on analyzing customer churn trends and predicting potential churners using advanced data analytics and visualization tools. By leveraging Python and Power BI, actionable insights are derived to assist in decision-making processes.
 
 ## Files
-- **data/Prediction_Data.xlsx**: Contains the dataset used for churn analysis and prediction.
-- **reports/Churn Analysis.pbix**: Power BI report visualizing customer churn trends and actionable insights.
-- **src/**: Scripts or notebooks used for data preprocessing, model training, and prediction.
+- **Data/Customer_Data.xlsx**: Contains the dataset used for churn analysis and prediction.
+- **Churn Analysis.pbix**: Power BI report visualizing customer churn trends and actionable insights.
+- **code/python_data.ipynb**: Scripts or notebooks used for data preprocessing, model training, and prediction.
 
 ## Features
 1. **Data Preprocessing:** Cleaning and preparing the dataset for analysis.
